@@ -1,0 +1,33 @@
+Author: Nyashadzashe Makwabarara
+Date: 23/04/2023
+Program: Number guessing game (arcade edition)
+
+Program Outline: this will be a game that tests the users luck and knowledge. The player will guess a random
+                    number, that the computer generates. If the player guesses it right, they will win tokens,
+                    if they incorrectly guess, they will lose the number of tokens they placed for betting.
+                    The amount of tokens they win, depends on the difficulty of the level.
+
+Implemented concepts: the concepts I want to implement are; functions, structures, loops and control structures,
+                        and the standard library templates. 
+
+Things to consider: 1. the player deposits their tokens to play
+                    2. the player can guess a number between certain ranges depending on the difficulty
+                            - easier than easy range: 1-5
+                            - novice (easy) range: 1-8
+                            - intermediate range: 1-12
+                            - expert range: 1-20
+                    3.  how much a player would win depending on the difficulty
+                            - easier than easy range: betting amount * 1 tokens
+                            - novice (easy) range: betting amount * 2  tokens
+                            - intermediate range: betting amount * 3 tokens
+                            - expert range: betting amount * 5 tokens
+                    4.  how the user should quit the game
+                    5.  functionality features: 
+                            - player name 
+                            - token deposit (have conditionals such tokens are multiples of 5)
+                            - token betting amount (should also be multiples of 5)
+                            - number guess
+                            - random number generator & how to increase difficulty
+                            - when the game should be stopped (ie. if tokens left < betting amount)
+                            
+
